@@ -12,6 +12,10 @@ export class Cliente extends Pessoa{
         this.idade = idade 
         this.sacola = []
     }
+
+    imprimirNome(){
+        return `${nome} ${sobrenome}`
+    }
 }
 
 const nando = new Cliente('nando', 'lacerda', 29)
